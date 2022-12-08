@@ -254,6 +254,8 @@ body{
     margin: 0 auto;
     max-width: 1200px;
     text-justify: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .container-sobre h2{
@@ -281,7 +283,6 @@ body{
     padding: 25px;
 }
 
-
 .btn-sobre{
     text-decoration: none;
     background-color: var(--purple-color);
@@ -304,4 +305,39 @@ body{
 }
 .btn-sobre a:hover{
     color: var(--purple-color);
+}
+
+.container-contatos{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1300px;
+    margin-bottom: 65px;
+}
+
+.container-contatos h2{
+    color: var(--white);
+    font-weight: medium;
+    font-size: 40px;
+    font-family: var(--font-primary);
+    padding: 25px;
+}
+
+.box-contatos{
+    display: flex;
+    flex-direction: row;
+    color: var(--white);
+    font-weight: medium;
+    font-size: 25px;
+    font-family: var(--font-primary);
+    gap: 25px;
+}
+
+.contatos {
+    padding: 35px;
+    background-color: var(--purple-color);
+    border-radius: 10px;
 }
