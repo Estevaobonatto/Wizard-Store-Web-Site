@@ -20,7 +20,8 @@
 
 :root{
     --primary-color: #202020;
-    --orange-color: #ff5100;
+    --purple-color: #874eaa;
+    --white: #fff;
     --font-primary: 'Ubuntu', sans-serif;
 }
 
@@ -39,6 +40,8 @@
 body{
     background: var(--primary-color);
 }
+
+/*TODO: INICIO NAVBAR*/
 
 .navbar {
     display: flex;
@@ -74,7 +77,7 @@ body{
 }
 
 .navbar-item a:hover{
-    color: var(--orange-color);
+    color: var(--purple-color);
     cursor: pointer;
     transition: 0.3s all;
 }
@@ -89,21 +92,77 @@ body{
 
 .btn-navbar{
     text-decoration: none;
-    background-color: var(--orange-color);
+    background-color: var(--purple-color);
     padding: 12px;
     border-radius: 6px;
     font-weight: bold;
     font-size: 16px;
-    border: 2px solid var(--orange-color)
+    border: 2px solid var(--purple-color)
 }
 
 .btn-navbar:hover{
     
     background-color: #000;
-    border: 2px solid var(--orange-color);
+    border: 2px solid var(--purple-color);
     cursor: pointer;
     transition: 0.3s all;
 }
 .btn-navbar a:hover{
-    color: var(--orange-color);
+    color: var(--purple-color);
+}
+
+/*TODO: FIM NAVBAR*/
+
+.container {
+    color: var(--white);
+    font-family: var(--font-primary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: var(--font-primary);
+}
+
+.main-content h1{
+    padding-bottom: 10px;
+}
+.main-content h2{
+    padding-bottom: 15px;
+}
+
+.img-content{
+    width: 515px;
+    height: 450px;
+}
+
+.btn-content{
+    text-decoration: none;
+    background-color: var(--purple-color);
+    padding: 12px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px solid var(--purple-color)
+}
+
+.btn-content:hover{
+    
+    background-color: transparent;
+    border: 2px solid var(--purple-color);
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.btn-content a:hover{
+    color: var(--purple-color);
 }
