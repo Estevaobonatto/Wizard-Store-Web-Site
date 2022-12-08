@@ -239,6 +239,17 @@ body{
     max-height: 250px;
 }
 
+.produtos img:hover {
+    max-width: 257px;
+    max-height: 257px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.produtos img:not(hover){
+    transition: 0.3s all;
+}
+
 .produto-box {
     display: flex;
     flex-direction: column;
@@ -354,6 +365,7 @@ body{
     margin: 0 auto;
     max-width: 1300px;
     margin-bottom: 65px;
+    
 }
 
 .container-contatos h2{
@@ -372,6 +384,7 @@ body{
     font-size: 25px;
     font-family: var(--font-primary);
     gap: 25px;
+    margin-top: 50px;
 }
 
 .contatos {
