@@ -163,6 +163,15 @@ body{
     padding-bottom: 15px;
 }
 
+.titulo:hover{
+    color: var(--purple-color);
+    transition: 0.3s all;
+}
+
+.titulo:not(hover){
+    transition: 0.3s all;
+}
+
 .img-content{
     width: 515px;
     height: 450px;
