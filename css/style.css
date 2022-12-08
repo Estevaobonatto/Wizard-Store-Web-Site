@@ -52,6 +52,7 @@ body{
     padding-right: 100px;
     justify-content: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     background: #000;
 }
 
@@ -65,6 +66,7 @@ body{
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 0 20px 0 20px;
     font-size: 18px;
     font-weight: bold;
@@ -120,6 +122,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     margin: 60px 0;
 }
 
@@ -168,3 +171,75 @@ body{
 }
 
 /*TODO: INICIO PRODUTOS*/
+
+.container-info h2{
+    color: var(--white);
+    font-weight: medium;
+    font-size: 40px;
+    font-family: var(--font-primary);
+    padding: 25px;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.produtos{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1290px;
+}
+
+.produtos img{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.produto-box {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    font-weight: medium;
+    font-size: 20px;
+    font-family: var(--font-primary);
+    padding: 30px;
+}
+
+.produto-box h2, h3, p{
+    padding: 7px;
+}
+
+.produto-box p{
+    padding-bottom: 15px;
+    text-justify: auto;
+    font-weight: 400;
+}
+
+.btn-produtos{
+    text-decoration: none;
+    background-color: var(--purple-color);
+    padding: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid var(--purple-color)
+}
+
+.btn-produtos:hover{
+    
+    background-color: transparent;
+    border: 2px solid var(--purple-color);
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.btn-produtos a:hover{
+    color: var(--purple-color);
+}
