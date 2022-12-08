@@ -172,7 +172,7 @@ body{
 
 /*TODO: INICIO PRODUTOS*/
 
-.container-info h2{
+.container-produtos h2{
     color: var(--white);
     font-weight: medium;
     font-size: 40px;
@@ -180,7 +180,7 @@ body{
     padding: 25px;
 }
 
-.container-info {
+.container-produtos {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -241,5 +241,67 @@ body{
     transition: 0.3s all;
 }
 .btn-produtos a:hover{
+    color: var(--purple-color);
+}
+
+.container-sobre {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-justify: auto;
+}
+
+.container-sobre h2{
+    color: var(--white);
+    font-weight: medium;
+    font-size: 40px;
+    font-family: var(--font-primary);
+    padding: 25px;
+}
+
+.container-sobre h3{
+    color: var(--white);
+    font-weight: medium;
+    font-size: 30px;
+    font-family: var(--font-primary);
+    padding: 25px;
+    padding-bottom: 40px;
+}
+
+.texto-sobre {
+    max-width: 600px;
+}
+
+.img-sobre {
+    padding: 25px;
+}
+
+
+.btn-sobre{
+    text-decoration: none;
+    background-color: var(--purple-color);
+    padding: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid var(--purple-color);
+    margin-left: 25%;
+}
+
+.btn-sobre:hover{
+    
+    background-color: transparent;
+    border: 2px solid var(--purple-color);
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.btn-sobre a:hover{
     color: var(--purple-color);
 }
