@@ -113,7 +113,7 @@ body{
 
 /*TODO: FIM NAVBAR*/
 
-.container {
+.container-p {
     color: var(--white);
     font-family: var(--font-primary);
     display: flex;
